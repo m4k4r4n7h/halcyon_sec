@@ -10,97 +10,107 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
- 
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0a1422; /* Dark background */
-            color: #f5f5f5; /* Light text color */
+            background-color: #0a1422;
+            /* Dark background */
+            color: #f5f5f5;
+            /* Light text color */
             margin: 0;
             padding: 0;
         }
+
         nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: calc(100% - 100px);
-    background: rgba(49, 49, 49, 0.6);
-    padding: 10px 20px;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    backdrop-filter: blur(100px);
-    margin: 10px 60px;
-    border-radius: 10px;
-  }
-  
-  nav .logo {
-    font-size: 1.1rem;
-    color: var(--md_accent_color);
-    cursor: pointer;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: 500;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin-left: 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    font-size: 1rem;
-    transition: color 0.3s ease;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: 500;
-    text-decoration: none !important;
-  }
-  
-  nav ul li a:hover {
-    color: var(--md_accent_color);
-  }
-  
-  .mobile-nav {
-    display: none;
-    font-size: 1.5rem;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  #downloadBtn {
-    background: var(--md_accent_color);
-    padding: 10px 20px;
-    color: black;
-    border-radius: 100px;
-  }
-  
-  #downloadBtn:hover{
-    background: var(--md_accent_dark_color);
-  }
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: calc(100% - 100px);
+            background: #1210103e;
+            padding: 10px 20px;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            backdrop-filter: blur(90px);
+            margin: 10px 60px;
+            border-radius: 5px;
+            box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.233);
+        }
+
+        nav .logo {
+            font-size: 1.1rem;
+            color: #ffffffe1;
+            cursor: pointer;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 500;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            text-decoration: none !important;
+        }
+
+        nav ul li a:hover {
+            color:var(--md_accent_color);
+        }
+
+        .mobile-nav {
+            display: none;
+            font-size: 1.5rem;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        #downloadBtn {
+            background: var(--md_accent_color);
+            padding: 10px 20px;
+            color: black;
+            border-radius: 100px;
+        }
+
+        #downloadBtn:hover {
+            background: var(--md_accent_dark_color);
+        }
+
         /* Custom scrollbar */
         ::-webkit-scrollbar {
             width: 9px;
         }
 
         ::-webkit-scrollbar-track {
-            background: #1c2637; /* Dark background for the scrollbar track */
+            background: #1c2637;
+            /* Dark background for the scrollbar track */
             border-radius: 10px;
         }
 
         ::-webkit-scrollbar-thumb {
-            background: #ff4d4d; /* Red color for the thumb */
+            background: #ff4d4d;
+            /* Red color for the thumb */
             border-radius: 10px;
-            border: 3px solid #131f2a; /* Darker border around the thumb */
+            border: 3px solid #131f2a;
+            /* Darker border around the thumb */
         }
 
         ::-webkit-scrollbar-thumb:hover {
-            background: #ff7777; /* Slightly lighter red when hovered */
+            background: #ff7777eb;
+            /* Slightly lighter red when hovered */
         }
 
         .container {
@@ -120,20 +130,22 @@
         .btn-primary {
             background-color: #ff4d4d;
             color: white;
-            border: 2px solid #ff4d4d;
+            border: 3px solid #ff4d4daf;
+            box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.922);
         }
 
         .btn-primary:hover {
-            background-color: white;
-            color: #ff4d4d;
-            transform: translateY(-3px);
+            background-color: #ff4d4dda;
+            color: #ffffffd2;
+            transform: translateY(-2px);
         }
 
         h1,
         h2,
         h3 {
             font-weight: 600;
-            color: #f5f5f5; /* Light text color */
+            color: #f5f5f5;
+            /* Light text color */
         }
 
         h1 {
@@ -149,7 +161,8 @@
         p {
             font-size: 1.125rem;
             line-height: 1.6;
-            color: #ddd; /* Lighter text color */
+            color: #ddd;
+            /* Lighter text color */
         }
 
         .hero {
@@ -163,18 +176,19 @@
             align-items: center;
             text-align: center;
             filter: brightness(0.99);
-			}
+        }
 
         .hero h1 {
             font-size: 4rem;
             font-weight: 700;
-            margin-bottom:9px;
-            color: white;
+            margin-bottom: 9px;
+            color: rgb(255, 255, 255);
             transition: transform 0.2s ease-out;
         }
 
         .hero p {
-            font-size: 1.25rem;
+            font-size: 1.2rem;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
             margin-bottom: 9px;
             color: white;
             transition: transform 0.2s ease-out;
@@ -188,7 +202,7 @@
         }
 
         .card {
-            background-color: #1c2637; 
+            background-color: #1c2637;
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -196,20 +210,22 @@
         }
 
         .card:hover {
-            transform: scale(1.05); /* Zoom in effect */
-            box-shadow: 0 0 0 4px #ff4d4d; /* Red border effect */
+            transform: scale(1.05);
+            /* Zoom in effect */
+            box-shadow: 0 0 0 4px #ff4d4d;
+            /* Red border effect */
         }
 
         .card img {
             width: 100%;
             height: 200px;
             object-fit: inherit;
-            border-radius: 9px;
+            border-radius: 20px;
             margin-bottom: 20px;
         }
 
         .footer {
-            background-color: #171f2b; 
+            background-color: #171f2b;
             color: white;
             text-align: center;
             padding: 40px 20px;
@@ -236,7 +252,7 @@
         }
 
         .who-we-are-box {
-            background-color: #0e1b2d; 
+            background-color: #0e1b2d;
             padding: 90px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -253,7 +269,8 @@
 
         /* Darker header with transparency */
         header {
-            background-color: rgba(8, 15, 27, 0.85); /* rgba for transparency */
+            background-color: rgba(8, 15, 27, 0.85);
+            /* rgba for transparency */
         }
     </style>
 </head>
@@ -261,35 +278,37 @@
 <body>
     <nav>
         <div class="logo">
-          <a href="home.html#header_intro" onclick="loadPage(event)">Halcyon Sec</a>
+            <a href="home.html#header_intro" onclick="loadPage(event)">HALCYON SEC</a>
         </div>
         <div class="mobile-nav"><i class="fas fa-bars"></i></div>
         <ul class="nav-links">
-          <li>
-            <!-- <a href="home.html#about" onclick="loadPage(event)">About</a> -->
-            <a href="#who-we-are" class="text-gray-300 hover:text-[#ff4d4d]"onclick="loadPage(event)">Who We Are</a>
-          </li>
-          <li>
-            <a href="#services" class="text-gray-300 hover:text-[#ff4d4d]"onclick="loadPage(event)">Services</a>
-            <!-- <a href="home.html#features" onclick="loadPage(event)">Features</a> -->
-          </li>
-          <li>
-            <a href="#testimonials" class="text-gray-300 hover:text-[#ff4d4d]"onclick="loadPage(event)">Testimonials</a>
-            <!-- <a href="#changelog">Changelog</a> -->
-          </li>
-          <li>
-            <!-- <a href="home.html#community" onclick="loadPage(event)">Community</a> -->
-            <a href="#contact" class="text-gray-300 hover:text-[#ff4d4d]"onclick="loadPage(event)">Contact</a>
-          </li>
-          <li>
-            <a href="#faq" class="text-gray-300 hover:text-[#ff4d4d]"onclick="loadPage(event)">FAQ</a>
-          </li>
-          <li>
-            
-            <!-- <a href="download.html#downloads" onclick="loadPage(event)" id="downloadBtn">Downloads</a> -->
-          </li>
+            <li>
+                <!-- <a href="home.html#about" onclick="loadPage(event)">About</a> -->
+                <a href="#who-we-are" class="text-gray-300 hover:text-[#ff4d4d]" onclick="loadPage(event)">Who We
+                    Are</a>
+            </li>
+            <li>
+                <a href="#services" class="text-gray-300 hover:text-[#ff4d4d]" onclick="loadPage(event)">Services</a>
+                <!-- <a href="home.html#features" onclick="loadPage(event)">Features</a> -->
+            </li>
+            <li>
+                <a href="#testimonials" class="text-gray-300 hover:text-[#ff4d4d]"
+                    onclick="loadPage(event)">Testimonials</a>
+                <!-- <a href="#changelog">Changelog</a> -->
+            </li>
+            <li>
+                <!-- <a href="home.html#community" onclick="loadPage(event)">Community</a> -->
+                <a href="#contact" class="text-gray-300 hover:text-[#ff4d4d]" onclick="loadPage(event)">Contact</a>
+            </li>
+            <li>
+                <a href="#faq" class="text-gray-300 hover:text-[#ff4d4d]" onclick="loadPage(event)">FAQ</a>
+            </li>
+            <li>
+
+                <!-- <a href="download.html#downloads" onclick="loadPage(event)" id="downloadBtn">Downloads</a> -->
+            </li>
         </ul>
-      </nav>
+    </nav>
 
 
     <!-- <header class="py-6 shadow-md">
@@ -303,13 +322,14 @@
                     <li><a href="#contact" class="text-gray-300 hover:text-[#ff4d4d]">Contact</a></li>
                 </ul>
             </nav>
-        </div> -->
-    </header>
+        </div> 
+    </header>-->
 
     <section class="hero fade-in">
         <div>
             <h1>Master the Art of Cyber Resilience</h1>
-            <p>Protect your digital assets with advanced, proactive cybersecurity strategies designed for the modern enterprise.</p>
+            <p>Protect your digital assets with advanced, proactive cybersecurity strategies designed for the modern
+                enterprise.</p>
             <button class="btn btn-primary mt-8">Discover Our Solutions</button>
         </div>
     </section>
@@ -317,7 +337,8 @@
     <section id="who-we-are" class="container py-20 fade-in">
         <div class="who-we-are-box">
             <h2 style="text-align:center">Who We Are</h2>
-            <p>We are Halcyon Sec, a global leader in cybersecurity and IT consulting. We empower businesses with solutions that mitigate risks and strengthen cyber defenses in an increasingly interconnected world.</p>
+            <p>We are Halcyon Sec, a global leader in cybersecurity and IT consulting. We empower businesses with
+                solutions that mitigate risks and strengthen cyber defenses in an increasingly interconnected world.</p>
         </div>
     </section>
 
@@ -325,9 +346,9 @@
         <h2 style="padding:25.5px;text-align:center">Our Services</h2>
         <div class="grid">
             <div class="services-box card">
-                <img src="osint_icon2.png" href="osint.html" alt="Managed IT Services">
-                <h2><b>OSINT</b></h2>
-                <p>We dive deep into the open web to uncover hidden truths, turning noise into intelligence, so you're always one step ahead.</p>
+                <img src="osint_icon.svg" href="osint.html" alt="Managed IT Services">
+                <h3>OSINT</h3>
+                <p>We handle your IT infrastructure so you can focus on what matters most.</p>
             </div>
             <div class="services-box card">
                 <img src="https://placehold.co/400x200" alt="IT Security">
@@ -343,7 +364,7 @@
     </section>
 
     <section id="testimonials" class="container py-20 fade-in">
-        
+
         <h2 style="padding:25.5px;text-align:center">Client Testimonials</h2>
         <div class="grid">
             <div class="testimonials-box">
@@ -351,7 +372,8 @@
                 <h3>- Ellen Downing, CEO of Wroote Co.</h3>
             </div>
             <div class="testimonials-box">
-                <p>"The team at Halcyon Sec is incredibly knowledgeable and always proactive in addressing our security needs."</p>
+                <p>"The team at Halcyon Sec is incredibly knowledgeable and always proactive in addressing our security
+                    needs."</p>
                 <h3>- Douglas Galveston, CTO of Stewart Financial</h3>
             </div>
             <div class="testimonials-box">
@@ -363,7 +385,8 @@
 
     <section id="contact" class="container py-20 fade-in">
         <h2>Contact Us</h2>
-        <p>Interested in working with us? Reach out today to discuss how we can help you build a resilient cyber infrastructure.</p>
+        <p>Interested in working with us? Reach out today to discuss how we can help you build a resilient cyber
+            infrastructure.</p>
         <button class="btn btn-primary">Get in Touch</button>
     </section>
 

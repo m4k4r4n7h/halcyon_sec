@@ -1,0 +1,104 @@
+1. Introduction
+Welcome to HalcyonSec Cybersecurity Academy. By enrolling in our OSINT course, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
+
+2. Course Enrollment
+
+Enrollment in the OSINT course is subject to availability.
+Participants must be at least [insert age] years old to enroll.
+All enrollment requests must be completed through our official website.
+3. Payment Terms
+
+Course fees must be paid in full at the time of enrollment.
+Payments can be made via [insert payment methods].
+All fees are non-refundable unless the course is canceled by HalcyonSec.
+4. Course Content and Access
+
+HalcyonSec reserves the right to modify course content, schedule, and instructors as necessary.
+Course materials are provided for personal use only and may not be shared or distributed without permission.
+Access to course materials will be granted for [insert duration] after the course completion.
+5. Code of Conduct
+
+Participants are expected to conduct themselves professionally and respectfully.
+Harassment, discrimination, or any form of disruptive behavior will not be tolerated and may result in expulsion from the course without a refund.
+6. Intellectual Property
+
+All course materials, including but not limited to videos, documents, and presentations, are the intellectual property of HalcyonSec and are protected by copyright laws.
+Participants may not reproduce, distribute, or create derivative works from the course materials without express written permission.
+7. Limitation of Liability
+
+HalcyonSec is not liable for any direct, indirect, incidental, or consequential damages arising from participation in the OSINT course.
+Participants are responsible for their own actions and decisions made based on the course content.
+8. Privacy Policy
+
+HalcyonSec is committed to protecting your privacy. Personal information collected during enrollment will be used solely for course administration and will not be shared with third parties without consent.
+9. Governing Law
+
+These terms and conditions are governed by the laws of [insert jurisdiction]. Any disputes arising from these terms will be resolved in the courts of [insert jurisdiction].
+10. Changes to Terms and Conditions
+
+HalcyonSec reserves the right to modify these terms and conditions at any time. Participants will be notified of any significant changes.
+11. Acceptance of Terms
+
+By enrolling in the OSINT course, you acknowledge that you have read, understood, and agree to these terms and conditions.
+Feel free to adjust any sections to better fit your academy's policies and the specifics of your OSINT course.
+
+again give me some T&C for the academy provide the T&C as a responsible cyber security academy 
+
+.
+GPT-4o mini
+
+
+
+Certainly! Here’s a more detailed and responsible set of Terms and Conditions (T&C) tailored for HalcyonSec Cybersecurity Academy, emphasizing your commitment to professionalism, security, and ethical standards in the field of cybersecurity.
+
+Terms and Conditions for HalcyonSec Cybersecurity Academy
+
+1. Introduction
+Welcome to HalcyonSec Cybersecurity Academy. These Terms and Conditions govern your use of our services, including enrollment in courses, participation in events, and access to resources. By accessing our website and enrolling in our courses, you agree to comply with these terms.
+
+2. Enrollment and Eligibility
+
+Enrollment in courses is open to individuals who meet the prerequisites specified for each course.
+Participants must provide accurate and complete information during the enrollment process.
+HalcyonSec reserves the right to refuse enrollment to anyone who does not meet the eligibility criteria.
+3. Course Fees and Payment
+
+All course fees must be paid in full at the time of registration.
+Accepted payment methods include [insert payment methods].
+Fees are non-refundable unless the course is canceled by HalcyonSec or as otherwise stated in our refund policy.
+4. Course Access and Materials
+
+Upon successful enrollment, participants will receive access to course materials, which may include videos, documents, and other resources.
+Access to course materials is granted for a limited time, typically [insert duration], after which access may be revoked.
+Participants are prohibited from sharing course materials with unauthorized individuals.
+5. Code of Conduct
+
+Participants are expected to maintain a professional demeanor and respect the rights of others.
+Any form of harassment, discrimination, or disruptive behavior will not be tolerated and may result in immediate expulsion from the course without a refund.
+Participants must adhere to ethical standards in cybersecurity practices and discussions.
+6. Intellectual Property Rights
+
+All course content, including but not limited to lectures, presentations, and written materials, is the intellectual property of HalcyonSec and is protected by copyright laws.
+Participants may not reproduce, distribute, or create derivative works from the course materials without prior written consent from HalcyonSec.
+7. Limitation of Liability
+
+HalcyonSec is not liable for any direct, indirect, incidental, or consequential damages arising from participation in our courses or use of our materials.
+Participants are responsible for their own actions and decisions made based on the information provided in the courses.
+8. Privacy and Data Protection
+
+HalcyonSec is committed to protecting your privacy. Personal information collected during enrollment will be used solely for administrative purposes and will not be shared with third parties without your consent.
+We comply with applicable data protection laws and regulations.
+9. Compliance with Laws
+
+Participants are responsible for complying with all applicable laws and regulations while engaging in our courses and activities.
+Any illegal activities or violations of laws will result in immediate expulsion from the course and potential legal action.
+10. Changes to Terms and Conditions
+
+HalcyonSec reserves the right to modify these Terms and Conditions at any time. Participants will be notified of any significant changes via email or through our website.
+Continued participation in courses after changes have been made constitutes acceptance of the new terms.
+11. Governing Law
+
+These Terms and Conditions are governed by the laws of [insert jurisdiction]. Any disputes arising from these terms will be resolved in the courts of [insert jurisdiction].
+12. Acceptance of Terms
+
+By enrolling in a course at HalcyonSec, you acknowledge that you have read, understood, and agree to these Terms and Conditions
